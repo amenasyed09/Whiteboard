@@ -56,5 +56,5 @@ A real-time collaborative whiteboard application built using the **MERN stack** 
 
 ---
 
-## 📁 Project Structure
+
 
