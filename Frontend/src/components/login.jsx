@@ -13,7 +13,7 @@ export default function Login({ onSuccess, onSwitch }) {
 
     try {
       const res = await axios.post(
-        `${API_URL}auth/login`,
+        `${API_URL}/auth/login`,
         { email, password }
       );
 
