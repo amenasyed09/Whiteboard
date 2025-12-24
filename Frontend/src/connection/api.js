@@ -18,7 +18,7 @@ api.interceptors.response.use(
   async (err) => {
     if (err.response?.status === 401) {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/refresh",
+        `${API_URL}auth/refresh`,
         { refreshToken }
       );
 

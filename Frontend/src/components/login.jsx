@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import React from "react";
-
+const API_URL = import.meta.env.VITE_API_URL || "https://whiteboard-backend-1els.onrender.com/api";
 export default function Login({ onSuccess, onSwitch }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -13,7 +13,7 @@ export default function Login({ onSuccess, onSwitch }) {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        `${API_URL}auth/login`,
         { email, password }
       );
 
