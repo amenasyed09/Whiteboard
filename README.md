@@ -4,6 +4,10 @@ A real-time collaborative whiteboard application built using the **MERN stack** 
 
 ---
 
+## 🌐 Live Demo
+
+<a href="https://whiteboard-frontend-hoju.onrender.com"> Live Demo </a> 
+
 ## 🚀 Features
 
 ### 🔐 Authentication
